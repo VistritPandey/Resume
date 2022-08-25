@@ -1,0 +1,241 @@
+%-------------------------
+% Resume in Latex
+% Author : Vistrit Pandey
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,7pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\newcommand\tab[1][0.65cm]{\hspace*{#1}}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+
+\begin{center}
+
+    \vspace{-30pt}
+    {\Huge \scshape Vistrit Pandey} \\ \vspace{1pt}
+    723 North 39th Street, Philadelphia, Pennsylvania 19104 \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ 215-452-9375 ~ {\raisebox{-0.2\height}\faEnvelope\  \underline{vistritpandey@gmail.com}} ~ {\raisebox{-0.2\height}\Mundus\  \underline{https://vistritpandey.live/}}
+    \vspace{5pt}
+    
+\end{center}
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, Java, JavaScript, C, C++, HTML/CSS, JavaScript, SQL, AWK, Bash, Racket, Haskell, Scheme, LaTeX, Swift, React.js, React Native, Node.js, Next.js } \\
+     \textbf{Tools | Operating Systems}{: Redux, Heroku, Socket.io, JQuery, Firebase, Git, GitLab, Bootstrap, GitHub, Qualtrics, GitPod, Expo CLI, ES6/7, Android Studio, XCode, Virtual Machine, Shell, JSON | Mac, Linux, Windows } \\
+     \textbf{Coursework}{: Web and Mobile App Development, Software Architecture I, Systems Programming, Human Centered Design, Discrete Mathematics, Data Structures, Programming Language Concepts}\\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+ 
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Drexel University}{September 2019 - Present}
+      {\underline{Bachelor of Science} in \textbf{Computer Science}, \underline{Minor} in \textbf{Information Systems}}{Expected graduation: Summer 2023}
+      \resumeItemListStart
+        \vspace{2pt}
+        \resumeItem{AJ Drexel Scholarship (2019 - present)}
+        \resumeItem{Clubs - i) React Developers (Mentor) ii) Meta Developer Circle (Member)}
+       \resumeItemListEnd  
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Drexel University, College of Computing and Informatics}{Sept 2022 - Present}
+      {Course Assistant for Introduction to Computer Science (CS - 164)}{Philadelphia, Pennsylvania}
+      \resumeItemListStart
+        \resumeItem{Clarified \textbf{concepts} of students and helped students with their \textbf{assignments}}
+        \resumeItem{Held weekly office hours, provided continuous feedback and \textbf{assisted} the instructor in \textbf{compiling} coursework}
+        \resumeItem{Helped instructor in \textbf{grading} the assignments and labs of over \textbf{400 students}}
+        \vspace{3pt}
+      \resumeItemListEnd
+     
+    \resumeSubheading
+      {The Unnamed Auto}{Aug 2021 - Mar 2022}
+      {Web and Mobile App Developer co-op}{Mumbai, India}
+      \resumeItemListStart
+        \resumeItem{Used \textbf{React Native, Python, Material UI and Unity Engine} for the Frontend of the mobile app}
+        \resumeItem{Used \textbf{Geo-location} to show the closest charging points near the user, \textbf{which can be customized} based on the user's preferences.}
+        \vspace{-11pt}
+        \resumeItem{Display \textbf{navigations} on the user's helmet, using \textbf{Unity Engine and HUD technology} to display directions from the user's app}
+      \resumeItemListEnd
+     \vspace{4pt}
+
+    \resumeSubheading
+      {Hofars}{March 2021 - Aug 2021}
+      {Full Stack Developer}{Remote, India}
+      \resumeItemListStart
+        \resumeItem{Worked in a team to develop \textbf{full stack web/mobile app} in \textbf{React.js, Python and MongoDB} framework that \textbf{serves 25000+ customers} a month by \textbf{helping them book services/products} and also implemented \textbf{Stripe CLI} for payments.}
+        \resumeItem{Assisted new interns with \textbf{ React.js, React Native and WordPress} and helped deliver projects \textbf{on time}}
+    \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-10pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+          {\textbf{\underline{Carselltancy}}} {Jan 2022 - Present}
+          \resumeItemListStart
+          \vspace{3pt}
+          \resumeItem{Built using \textbf{React.js, React Native, Razor Pay, Expo CLI, Firebase}}
+            \resumeItem{Built a \textbf{mobile application, for both user and dealer} that helps users buy brand new cars, accessories, and spare parts from different selections of dealers.}
+          \resumeItemListEnd
+          \vspace{-15pt}
+      \resumeProjectHeading
+          {\textbf{\underline{Delesi}}} {Mar 2022 - Present}
+          \resumeItemListStart
+          \vspace{3pt}
+          \resumeItem{Built using \textbf{React Native, Expo CLI, Firebase}}
+            \resumeItem{Building a \textbf{mobile application} where people can shop in the \textbf{Metaverse} using \textbf{Augmented Reality/Virtual Reality}. This will help small business owners and also help users get a feel of what they want to buy}
+          \resumeItemListEnd
+          \vspace{-15pt}
+      \resumeProjectHeading
+          {\textbf{\underline{Search Engine}}}{Oct 2020 - Nov 2020}
+          \resumeItemListStart
+          \resumeItem{Built using \textbf{React.js, Google Search API, Firebase, Google Cloud}}
+            \resumeItem{\textbf{Front-end web application} that is my personal \textbf{search engine} for better \textbf{Safety, Privacy and Ad-free experience}. It allows \textbf{100 free queries/day}}
+          \resumeItemListEnd 
+        \vspace{-15pt}
+        \resumeProjectHeading
+          {\textbf{\underline{Social Media App}}}{Nov 2020 - Dec 2020}
+          \resumeItemListStart
+          \resumeItem{Built using \textbf{React Native, Material UI, Firebase, Expo CLI}}
+            \resumeItem{\textbf{Mobile application} that helps users \textbf{connect} with others and post their thoughts and media, similar to \textbf{Twitter} or \textbf{Facebook/Meta}}
+          \resumeItemListEnd 
+        \vspace{-15pt}
+    \resumeSubHeadingListEnd
+\vspace{7pt}
+
+%
+\section{Activities and Achievements}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \resumeItemListStart
+        \resumeItem{\textbf{City Champs}, PUBG Mobile Community Nights, March 2020}\\
+        \resumeItem{\textbf{Winner}, 7+ Hackathons, March 2020 - April 2022}\\
+        \resumeItem{\textbf{Mentor}, Hack the Northeast, January 2021}\\
+    \resumeItemListEnd
+    }}
+ \end{itemize}
+ 
+\end{document}
+
